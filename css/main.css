@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(241, 241, 241);
+    background-image: url(../tools/img/test_background_body.jpg);
+    background-repeat: none;
+    background-size: cover;
+    /*background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
+}
+
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 150px;
+    width: 70%;
+    margin: auto;
+    color: black;
+    text-shadow: 1px 1px white;
+    font-size: 1.2em;
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 10px;
+    font-weight: bold;
+    z-index: -2;
+}
+
+#form_first,
+#formLogin {
+    display: none;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    line-height: 1.75em;
+    background: rgba(85, 85, 85, 0.3);
+    border-radius: 10px;
+}
+
+form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-width: 1px;
+    width: 300px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+}
+
+footer {
+    bottom: 0;
+    height: 65px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.794);
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: rgb(116, 116, 0);
+    position: fixed;
+    text-shadow: 1px 1px white;
+}
+
+footer>p {
+    margin-top: 20px;
+}
+
+#connexion,
+#inscription {
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.794);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .6s;
+}
+
+#connexion:hover,
+#inscription:hover {
+    background-color: rgb(116, 116, 0);
+    color: white;
+}
+
+#appBook {
+    display: none;
+    margin: auto;
+    width: 75%;
+    margin-top: 100px;
+    background: rgba(85, 85, 85, 0.3);
+    height: 75%;
+}
+
+#search_book {
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.displayC {
+    display: none;
+    margin-bottom: 100px;
+}
+
+#contact_direct,
+#rencontre_foire,
+#demande_spec,
+#nous_contacter {
+    font-family: 'poppins';
+    text-align: center;
+    background: rgba(85, 85, 85, 0.5);
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 1px 1px white;
+}
+
+#separator {
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+}
+
+input,
+#txtarea {
+    background: linear-gradient(217deg, rgba(117, 86, 0, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 0, 0, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(180, 180, 180, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    color: white;
+}

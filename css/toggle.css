@@ -1,0 +1,79 @@
+ /* Toggle menu */
+
+ .burger {
+     display: none;
+     position: relative;
+     padding: 0;
+     width: 45px;
+     height: 45px;
+     border: none;
+     background: transparent;
+     cursor: pointer;
+     margin-right: 5px;
+     float: right;
+     right: 15px;
+ }
+
+ .bar {
+     display: block;
+     width: 45px;
+     height: 4px;
+     border-radius: 3px;
+     background: white;
+     transition: all .5s ease-in-out;
+ }
+
+ .bar::before,
+ .bar::after {
+     content: "";
+     width: 45px;
+     height: 4px;
+     position: absolute;
+     left: 0;
+     background: white;
+     border-radius: 3px;
+     transition: all .5s ease-in-out;
+ }
+
+ .bar::before {
+     transform: translateY(-12px)
+ }
+
+ .bar::after {
+     transform: translateY(12px)
+ }
+
+ .show-nav .bar {
+     width: 0;
+     background: transparent;
+ }
+
+ .show-nav .bar::before {
+     transform: rotate(45deg);
+ }
+
+ .show-nav .bar::after {
+     transform: rotate(-45deg);
+ }
+
+ /* Bonus - Animations */
+
+ .show-nav .first {
+     transition: all 1s ease-out;
+ }
+
+ .show-nav .second {
+     transition: all 1.1s ease-out;
+ }
+
+ .show-nav .third {
+     transition: all 1.2s ease-out;
+ }
+
+ .show-nav .four {
+     transition: all 1.3s ease-out;
+ }
+
+ .show-nav .fifth {
+     transition: all 1.4s ease-out;
+ }
